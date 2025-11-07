@@ -58,79 +58,6 @@ def flower(x,y,c):
          bob.left(1)
          bob.forward(10)
 
-'''
-bob.width(5)
-bob.right(90)
-bob.color("yellow")
-bob.circle(10)
-bob.color("green")
-bob.forward(100)
-    
-     
-
-for times in range(256):
-     n=randint(0,255)
-     c=(n,times,times)
-     polygon(10,256-times,c)
-     bob.left(5)
-
-'''
-for times in range(254):
-     n=randint(0,255)
-     c=(n,times,n)
-     polygon(9,255-times,c)#best one
-     comet(times,1,1)
-     bob.left(90)
-'''
-for times in range(255):
-     n=randint(0,255)
-     c=(times,0,0)
-     circle(1,c)
-     comet(times+2,5,1)
-     polygon(7,255-times,c)
-     bob.left(50)
-    
-     
-
-
-for times in range(100):
-     x=randint(5,1000)
-     y=randint(5,1000)
-     size=randint(5,300)
-     side=randint(1,15)
-     length=randint(0,100)
-     r=randint(0,255)
-     g=randint(0,255)
-     b=randint(0,255)
-     c=(r,g,b)
-     jump(x,y)
-     bob.color(c)
-     comet(size,side,length)
-
-
-for times in range(500):
-     n=randint(0,255)
-     c=(0,n,n)
-     r=randint(-300,300)
-     i=randint(1,15)
-     
-     flower(r,r,c)
-     bob.right(1)
-
-
-for times in range(500):
-     n=randint(0,255)
-     c=(0,n,n)
-     r=randint(-300,300)
-     i=randint(1,15)
-     flower(c)
-     polygon(100,times,c)
-
-for times in range(100):
-     r=randint(0,255)
-     c=("green")
-     comet(10,3,100)
-     bob.left(1)
 
 for times in range(254):
      n=randint(0,255)
@@ -138,11 +65,5 @@ for times in range(254):
      polygon(9,255-times,c)
      comet(times,1,1)
      bob.left(90)
-     circle(1,c)
-     comet(times+2,5,1)
-     polygon(7,255-times,c)
-     bob.left(50)
-     
-'''
 
 
